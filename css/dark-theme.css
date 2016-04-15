@@ -1,0 +1,73 @@
+#header.dark-bg {
+    background-color: rgba(59, 67, 71, 0.9);
+}
+
+#header.dark-bg #primary-menu a {
+    color: #FFF;
+}
+
+#header.dark-bg #primary-menu a:hover {
+    color: #459CE8;
+}
+
+.dark-bg #primary-menu-trigger {
+    color: #FFF;
+}
+
+.dark-bg a:hover,
+.dark-bg a:focus {
+    color: #FFF;
+}
+
+.dark-bg h1,
+.dark-bg h2,
+.dark-bg h3,
+.dark-bg h4,
+.dark-bg h5,
+.dark-bg h6 {
+    color: #FFF;
+}
+
+.dark-bg .wp-icon {
+    color: #fff!important;
+}
+
+.dark-bg .section-title-block .title {
+    color: #FFF;
+}
+
+.dark-bg .section-title-block:after {
+    border-top: 2px solid #FFF;
+}
+
+.dark-bg .lead {
+    color: #FFF;
+}
+
+.dark-bg form input:not(.button),
+.dark-bg form textarea,
+.dark-bg form select {
+    background: none;
+    color: #FFF;
+}
+
+.dark-bg form label {
+    color: #FFF;
+}
+
+.dark-bg form input.error,
+.dark-bg form textarea.error {
+    border-color: #ff4c4c!important;
+}
+
+.dark-bg .form-processing {
+    color: #FFF;
+}
+
+.dark-bg #contact-content .contact-section .contact-info .details a {
+    color: #FFF;
+}
+
+.dark-bg .text-rotator {
+    color: #FFF!important;
+}
