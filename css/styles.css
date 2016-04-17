@@ -1735,7 +1735,7 @@ button.toast-close-button {
   top: auto;
   bottom: -79px;
   left: 0;
-  background-color: #459CE8;
+  background-color: #f21c0d;
   color: #FFF; }
 
 .team-member-block .team-member-caption h3 {
@@ -2467,3 +2467,6 @@ ul .menu .single-page-nav li a:hover {
 
 .label a {
   color: #fefefe !important; }
+
+.team-member-overlay p {
+  font-size: 13px; }
