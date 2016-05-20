@@ -40,7 +40,7 @@ body {
   line-height: 1.5;
   color: #555;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif; }
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;; }
 
 iframe {
   border: none !important; }
@@ -54,7 +54,7 @@ h6 {
   color: #444;
   font-weight: 600;
   line-height: 1.5;
-  font-family: "Raleway", sans-serif; }
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 h5,
 h6 {
@@ -107,7 +107,7 @@ form {
   margin-bottom: 30px; }
 
 small {
-  font-family: "Open Sans", sans-serif; }
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;; }
 
 #main-content p {
   line-height: 1.7; }
@@ -404,7 +404,7 @@ small {
     display: block; } }
 
 #primary-menu a {
-  font-family: "Raleway", sans-serif;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.2em;
@@ -954,7 +954,7 @@ body.touch.screen-xxs .portfolio-notitle .portfolio-overlay {
 
 #main-content .stand-out-title h1,
 #main-content .stand-out-title h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;;
   font-size: 28px; }
 
 @media (min-width: 48em) {
@@ -990,7 +990,7 @@ body.touch.screen-xxs .portfolio-notitle .portfolio-overlay {
   border-top: 2px solid #111; }
 
 .section-title-block .title {
-  font-family: "Raleway", sans-serif;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700; }
 
 .section-title-block.text-center:after {
@@ -1533,7 +1533,7 @@ form textarea.error {
   border-bottom: 1px solid #8a9094; }
 
 #contact-content .contact-section .contact-info .header p {
-  font-family: "Raleway", sans-serif;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 2px;
   margin: 2em 0 1.5em;
   text-transform: uppercase;
@@ -1826,11 +1826,11 @@ body:not(.touch):not(.screen-xs):not(.screen-xxs) .team-member-overlay {
   padding: 10px 0;
   font-size: 28px;
   font-weight: 700;
-  font-family: "Raleway", sans-serif; }
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 .counter-item-block h5 {
   font-weight: 500 !important;
-  font-family: "Open Sans", sans-serif; }
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;; }
 
 .owl-carousel .animated {
   -webkit-animation-duration: 1000ms;
@@ -2127,7 +2127,7 @@ body:not(.touch):not(.screen-xs):not(.screen-xxs) .team-member-overlay {
 .pricing-table .plan .plan-header .plan-price {
   font-size: 50px;
   line-height: 1;
-  font-family: "Raleway", sans-serif;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 20px; }
 
 .pricing-table .plan .plan-header .plan-price .symbol {
