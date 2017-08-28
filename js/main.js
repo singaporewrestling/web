@@ -992,7 +992,7 @@ jQuery(function($) {
   $("#recent-news").rss(
     "http://news.singaporewrestling.com/rss/",
     {
-      entryTemplate: "<div class='medium-6 large-3 columns'><article class='article-card'><a href='{url}' target='_blank'>{teaserImage}</a><div class='card-content'><h5>{title}</h5><p>{shortBodyPlain}...</p><p><a href='{url}' target='_blank' class='button button-news'>Read Post</a></p></div></article></div>"
+      entryTemplate: "<div class='medium-6 large-3 columns'><article class='article-card'><a href='{url}'>{teaserImage}</a><div class='card-content'><h5>{title}</h5><p>{shortBodyPlain}...</p><p><a href='{url}' class='button button-news'>Read Post</a></p></div></article></div>"
     },
     function callback() {
       var elementHeights = $('.article-card').map(function() {
