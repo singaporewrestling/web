@@ -1185,29 +1185,6 @@ var FTEMP = FTEMP || {};
 	$window.on('resize', FTEMP.documentOnResize.init);
 })(jQuery);
 // Portfolio
-// Recent News
-jQuery(function($) {
-	$('#recent-news').rss(
-		'http://news.singaporewrestling.com/rss/',
-		{
-      limit: 4,
-			entryTemplate:
-				"<div class='medium-6 large-3 columns'><article class='article-card'><a href='{url}'>{teaserImage}</a><div class='card-content'><h5>{title}</h5><p>{shortBodyPlain}...</p><p><a href='{url}' class='button button-news'>Read Post</a></p></div></article></div>",
-		},
-		function callback() {
-			var elementHeights = $('.article-card')
-				.map(function() {
-					return $(this).height();
-				})
-				.get();
-			var maxHeight = Math.max.apply(null, elementHeights);
-			var buttonHeight = $('.button-news').height();
-			var totalHeight = maxHeight + buttonHeight;
-			$('.article-card').height(totalHeight);
-		}
-	);
-});
-// Recent News
 var config = {
 	mobile: false,
 	reset: false,
