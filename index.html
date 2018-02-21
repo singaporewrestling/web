@@ -191,10 +191,11 @@
     
 
     <section id="slider" class="slider-parallax full-screen force-full-screen dark-bg">
-      <div id="cover-image" class="full-screen force-full-screen dark section-page no-padding no-margin no-border ohidden" style="background-image: url('https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/boss-header.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center center; height: 667px">
+      <div id="cover-image" class="full-screen force-full-screen dark section-page no-padding no-margin no-border ohidden" style="background-image: url('https://s3-ap-southeast-1.amazonaws.com/singaporewrestling-news/2018/Feb/trials-2018.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center center; height: 667px">
         <div class="row text-center">
           <div style="position: absolute; top: 70%; width: 100%; padding-top: 0px; padding-bottom: 0px; margin-top: -28px;">
-            <a href="/boss" class="button hollow light-btn">BEAT OUR STREETS SINGAPORE (B.O.S.S)<br>Find out about our initiatives</a>
+            <a href="https://regonline.activeglobal.com/sgopentrials2018" class="button button-border button-rounded button-light large">Register</a>
+            <a href="https://www.facebook.com/events/478136849248605" class="button button-border button-rounded button-light large">Event Page</a>
           </div>
         </div>
         <a href="#" data-scrollto="#news-section" data-easing="easeInOutExpo" data-speed="1250" data-offset="65" class="one-page-arrow"><i class="fa fa-angle-double-down fa-2x infinite animated fadeInDown"></i></a>
@@ -1052,8 +1053,9 @@
           <div class="stand-out-title">
             <h2 class="text-uppercase">More About Us</h2>
           </div>
-          <a href="team" class="button button-border button-rounded button-light large">Meet the Team</a>
-          <a href="program" class="button button-border button-rounded button-light large">WFS PROGRAM</a>
+          <a href="/team" class="button button-border button-rounded button-light medium">Meet the Team</a>
+          <a href="/program" class="button button-border button-rounded button-light medium">WFS PROGRAM</a>
+          <a href="/boss" class="button button-border button-rounded button-light medium">BEAT OUR STREETS SINGAPORE (B.O.S.S)</a>
         </div>
         <div class="overlay-bg"></div>
       </div>
@@ -1252,17 +1254,32 @@
   </script>
   <script src="js/main.js"></script>
   <script>
-    jQuery(function($){$('#recent-news').rss('http://news.singaporewrestling.com/rss/',{limit:4,entryTemplate:"<div class='medium-6 large-3 columns'><article class='article-card'><a href='{url}'>{teaserImage}</a><div class='card-content'><h5>{title}</h5><p>{shortBodyPlain}...</p><p><a href='{url}' class='button button-news'>Read Post</a></p></div></article></div>",},function callback(){var elementHeights=$('.article-card').map(function(){return $(this).height()}).get();var maxHeight=Math.max.apply(null,elementHeights);var buttonHeight=$('.button-news').height();var totalHeight=maxHeight+buttonHeight;$('.article-card').height(totalHeight)});$(window).resize(function(){if($(window).width()<980){$('#cover-image').css('background-image','url(https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/mobile-cover-photo-bts.jpg)')}else{$('#cover-image').css('background-image','url(https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/cover-photo-bts.jpg)')}})})
+    jQuery(function($) {
+    $('#recent-news').rss('http://news.singaporewrestling.com/rss/', {
+        limit: 4,
+        entryTemplate: "<div class='medium-6 large-3 columns'><article class='article-card'><a href='{url}'>{teaserImage}</a><div class='card-content'><h5>{title}</h5><p>{shortBodyPlain}...</p><p><a href='{url}' class='button button-news'>Read Post</a></p></div></article></div>",
+    }, function callback() {
+        var elementHeights = $('.article-card').map(function() {
+            return $(this).height()
+        }).get();
+        var maxHeight = Math.max.apply(null, elementHeights);
+        var buttonHeight = $('.button-news').height();
+        var totalHeight = maxHeight + buttonHeight;
+        $('.article-card').height(totalHeight)
+    });
+})
   </script>
   <script>
   jQuery(function($) {
     $(window).on("load resize", function() {
-      if ($(window).width() < 600) {
-        $('#cover-image').css('background-image', 'url(https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/boss-header-mobile.jpg)')
-      } else if ($(window).width() > 601 && $(window).width() < 900) {
-        $('#cover-image').css('background-image', 'url(https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/boss-header-mid.jpg)')
+      if ($(window).width() < 450) {
+        $('#cover-image').css('background-image', 'url(https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/trials/trials-2018-xs.jpg)')
+      } else if ($(window).width() > 451 && $(window).width() < 900) {
+        $('#cover-image').css('background-image', 'url(https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/trials/trials-2018-sm.jpg)')
+      } else if ($(window).width() > 901 && $(window).width() < 1500) {
+        $('#cover-image').css('background-image', 'url(https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/trials/trials-2018-md.jpg)')
       } else {
-        $('#cover-image').css('background-image', 'url(https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/boss-header.jpg)')
+        $('#cover-image').css('background-image', 'url(https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/trials/trials-2018-lg.jpg)')
       }
     })
   })
