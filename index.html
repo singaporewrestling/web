@@ -252,15 +252,15 @@
       >
         <div
           id="cover-image"
-          class="full-screen force-full-screen dark section-page no-padding no-margin no-border ohidden"
-          style="background-image: url('https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/cover/boss-2019-lg.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center center; height: 667px"
+          class="full-screen force-full-screen dark section-page no-padding no-margin no-border ohidden hero-background"
         >
           <div class="row text-center">
-            <button style="background: lightgrey; padding: 30px 50px; font-weight: 900; font-size: x-large; margin-top: 40%;"><a href="https://endurancecui.active.com/new/events/61599052/select-race?_p=7523032232956028&fbclid=IwAR2ROeVKmBxRuG-sA1rqg8jY5OgkqOZZuPPhJ7ZW2Zlvh7kQpXzT7pDOnw0&e4q=93d386ee-3ea6-41f6-be4f-eefae01dc3fa&e4p=0a394d99-9f91-45a0-9994-059f249b5136&e4ts=1559019360&e4c=active&e4e=snawe00000000&e4rt=Safetynet&e4h=ea575f47472b3b92a4a443974c07cc66">Register for the camp</a></button>
+            <h1 style="">Wrestling Federation of Singapore</h1>
+            <!-- <button style="background: lightgrey; padding: 30px 50px; font-weight: 900; font-size: x-large; margin-top: 40%;"><a href="#">#</a></!--> 
           </div>
           <a
             href="#"
-            data-scrollto="#news-section"
+            data-scrollto="#gallery-section"
             data-easing="easeInOutExpo"
             data-speed="1250"
             data-offset="65"
@@ -275,7 +275,7 @@
       <!-- Main Content -->
       <div id="main-content">
         <!-- News Section -->
-        <div id="news-section" class="section-page">
+        <!-- <div id="news-section" class="section-page">
           <div class="row">
             <div
               class="section-title-block text-center centered-div"
@@ -283,9 +283,9 @@
             >
               <h2 class="title text-uppercase">Recent News</h2>
             </div>
-            <div id="recent-news" class="wow fadeInUp">
+            <div id="recent-news" class="wow fadeInUp"> -->
               <!-- Recent news content -->
-            </div>
+            <!-- </div>
           </div>
           <div
             class="text-center centered-div top-margin"
@@ -301,10 +301,10 @@
               >Read More <i class="fa fa-angle-down"></i
             ></a>
           </div>
-        </div>
+        </div> -->
         <!-- News Section -->
         <!-- Divider -->
-        <div
+        <!-- <div
           id="more-news"
           class="section-page parallax dark-bg"
           style="background-image: url('https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/background/parallax-1.jpg');"
@@ -321,7 +321,7 @@
             >
           </div>
           <div class="overlay-bg"></div>
-        </div>
+        </div> -->
         <!-- Divider -->
         <!-- Gallery Section -->
         <div id="gallery-section" class="section-page">
@@ -2130,22 +2130,22 @@
           if ($(window).width() < 450) {
             $("#cover-image").css(
               "background-image",
-              "url(https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/cover/boss-2019-xs.jpg)"
+              "linear-gradient(rgba(200, 62, 40, 0.8), rgba(245, 246, 252, 0.59)), url(https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/cover-photo-kids-xs.jpg)"
             );
           } else if ($(window).width() > 451 && $(window).width() < 900) {
             $("#cover-image").css(
               "background-image",
-              "url(https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/cover/boss-2019-sm.jpg)"
+              "linear-gradient(rgba(200, 62, 40, 0.8), rgba(245, 246, 252, 0.59)), url(https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/cover-photo-kids-sm.jpg)"
             );
           } else if ($(window).width() > 901 && $(window).width() < 1500) {
             $("#cover-image").css(
               "background-image",
-              "url(https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/cover/boss-2019-md.jpg)"
+              "linear-gradient(rgba(200, 62, 40, 0.8), rgba(245, 246, 252, 0.59)), url(https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/cover-photo-kids-md.jpg)"
             );
           } else {
             $("#cover-image").css(
               "background-image",
-              "url(https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/cover/boss-2019-lg.jpg)"
+              "linear-gradient(rgba(200, 62, 40, 0.8), rgba(245, 246, 252, 0.59)), url(https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/cover-photo-kids.jpg)"
             );
           }
         });

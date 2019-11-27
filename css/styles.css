@@ -2470,3 +2470,11 @@ ul .menu .single-page-nav li a:hover {
 
 .team-member-overlay p {
   font-size: 13px; }
+
+.hero-backgrouud {
+  background-image: linear-gradient(rgba(200, 62, 40, 0.8), rgba(245, 246, 252, 0.59)), url('https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/cover-photo-kids.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 667px;
+}
