@@ -1,394 +1,584 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Beat Our Streets Singapore (B.O.S.S)</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <title>Beat Our Streets Singapore (B.O.S.S)</title>
-  <meta charset="utf-8" />
-  <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="copyright"
+      content="Wrestling Federation of Singapore | #sgwrestling"
+    />
+    <meta name="language" content="EN" />
+    <meta name="robots" content="noodp" />
+    <meta name="robots" content="noarchive" />
+    <meta http-equiv="expires" content="-1" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="Cache-control" content="no-cache" />
 
-  <meta name="copyright" content="Wrestling Federation of Singapore | #sgwrestling">
-  <meta name="language" content="EN">
-  <meta name="robots" content="noodp">
-  <meta name="robots" content="noarchive">
-  <meta http-equiv="expires" content="-1">
-  <meta http-equiv="pragma" content="no-cache">
-  <meta http-equiv="Cache-control" content="no-cache">
+    <meta
+      name="keywords"
+      content="Wrestling, Singapore, sgwrestling, Freestyle, Greco, Greco Roman, United World Wrestling, Olympic, Sport, Sporting Association, Martial Art, National, South East Asia"
+    />
+    <meta
+      name="description"
+      content="The Wrestling Federation of Singapore is the sole governing body for wrestling styles managed under United World Wrestling, in Singapore."
+    />
 
-  <meta name="keywords"
-    content="Wrestling, Singapore, sgwrestling, Freestyle, Greco, Greco Roman, United World Wrestling, Olympic, Sport, Sporting Association, Martial Art, National, South East Asia" />
-  <meta name="description"
-    content="The Wrestling Federation of Singapore is the sole governing body for wrestling styles managed under United World Wrestling, in Singapore.">
+    <!-- Prevent Mobile Safari from automatically detecting phone numbers -->
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="wot-verification" content="339ceb0c47dd8301739f" />
+    <meta
+      name="google-site-verification"
+      content="iOXsV4pDiNeBz6wZu8GsmYm8VSpMW-XXlO7VEhIjA9s"
+    />
 
-  <!-- Prevent Mobile Safari from automatically detecting phone numbers -->
-  <meta name="format-detection" content="telephone=no">
-  <meta name="wot-verification" content="339ceb0c47dd8301739f" />
-  <meta name="google-site-verification" content="iOXsV4pDiNeBz6wZu8GsmYm8VSpMW-XXlO7VEhIjA9s" />
+    <link
+      rel="alternate"
+      href="http://singaporewrestling.com/"
+      hreflang="en-us"
+    />
 
-  <link rel="alternate" href="http://singaporewrestling.com/" hreflang="en-us" />
+    <link
+      rel="shortcut icon"
+      href="https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/seo/favicon.ico"
+      type="image/x-icon"
+    />
 
-  <link rel="shortcut icon" href="https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/seo/favicon.ico"
-    type="image/x-icon" />
+    <!-- FACEBOOK OG -->
+    <meta property="og:url" content="http://singaporewrestling.com/boss" />
+    <meta property="og:title" content="Beat Our Streets Singapore (B.O.S.S)" />
+    <meta
+      property="og:site_name"
+      content="Wrestling Federation of Singapore | #sgwrestling"
+    />
+    <meta
+      property="og:description"
+      content="Beat Our Streets Singapore (B.O.S.S) is a non-profit programme run by the Wrestling Federation of Singapore that aims to use the sport of wrestling to inspire our urban children and teenagers, and provide them with the academic and athletic support required to reach success."
+    />
+    <meta
+      property="og:image"
+      content="https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/boss-og.jpg"
+    />
+    <meta property="og:locale" content="en_US" />
+    <meta property="fb:admins" content="100001763536524" />
+    <meta property="fb:page_id" content="102358826492340" />
+    <!-- FACEBOOK OG -->
 
-  <!-- FACEBOOK OG -->
-  <meta property="og:url" content="http://singaporewrestling.com/boss" />
-  <meta property="og:title" content="Beat Our Streets Singapore (B.O.S.S)" />
-  <meta property="og:site_name" content="Wrestling Federation of Singapore | #sgwrestling" />
-  <meta property="og:description"
-    content="Beat Our Streets Singapore (B.O.S.S) is a non-profit programme run by the Wrestling Federation of Singapore that aims to use the sport of wrestling to inspire our urban children and teenagers, and provide them with the academic and athletic support required to reach success." />
-  <meta property="og:image"
-    content="https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/boss-og.jpg" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="fb:admins" content="100001763536524" />
-  <meta property="fb:page_id" content="102358826492340" />
-  <!-- FACEBOOK OG -->
+    <!-- TWITTER OG-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Wrestling Federation of Singapore | #sgwrestling"
+    />
+    <meta
+      name="twitter:description"
+      content="Beat Our Streets Singapore (B.O.S.S) is a non-profit programme run by the Wrestling Federation of Singapore that aims to use the sport of wrestling to inspire our urban children and teenagers, and provide them with the academic and athletic support required to reach success."
+    />
+    <meta
+      name="twitter:image"
+      content="https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/boss-og.jpg"
+    />
+    <meta name="twitter:site" content="@SGwrestling" />
+    <meta name="twitter:creator" content="@SGwrestling" />
+    <!-- TWITTER OG-->
 
-  <!-- TWITTER OG-->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Wrestling Federation of Singapore | #sgwrestling" />
-  <meta name="twitter:description"
-    content="Beat Our Streets Singapore (B.O.S.S) is a non-profit programme run by the Wrestling Federation of Singapore that aims to use the sport of wrestling to inspire our urban children and teenagers, and provide them with the academic and athletic support required to reach success." />
-  <meta name="twitter:image"
-    content="https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/boss-og.jpg" />
-  <meta name="twitter:site" content="@SGwrestling" />
-  <meta name="twitter:creator" content="@SGwrestling" />
-  <!-- TWITTER OG-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/dark-theme.css" />
+    <link rel="stylesheet" href="css/linear-icons.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+  </head>
 
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="stylesheet" href="css/foundation.css" />
-  <link rel="stylesheet" href="css/animate.css" />
-  <link rel="stylesheet" href="css/font-awesome.css" />
-  <link rel="stylesheet" href="css/dark-theme.css" />
-  <link rel="stylesheet" href="css/linear-icons.css" />
-  <link rel="stylesheet" href="css/magnific-popup.css" />
-</head>
-
-<body>
-  <div id="wrapper" class="clearfix">
-    <!-- Header -->
-    <header id="header" class="clearfix">
-      <div id="header-wrap">
-        <div class="row">
-          <div class="columns medium-12">
-            <div id="primary-menu-trigger"><i class="fa fa-bars"></i></div>
-            <div id="logo">
-              <a href="/" class="standard-logo"
-                data-dark-logo="https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/seo/wfsimg-icon.png"><img
-                  src="https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/seo/wfsimg-icon.png"
-                  alt="WFS Logo"></a>
+  <body>
+    <div id="wrapper" class="clearfix">
+      <!-- Header -->
+      <header id="header" class="clearfix">
+        <div id="header-wrap">
+          <div class="row">
+            <div class="columns medium-12">
+              <div id="primary-menu-trigger"><i class="fa fa-bars"></i></div>
+              <div id="logo">
+                <a
+                  href="/"
+                  class="standard-logo"
+                  data-dark-logo="https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/seo/wfsimg-icon.png"
+                  ><img
+                    src="https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/seo/wfsimg-icon.png"
+                    alt="WFS Logo"
+                /></a>
+              </div>
+              <nav id="primary-menu">
+                <ul
+                  class="menu single-page-nav"
+                  data-easing="easeInOutExpo"
+                  data-speed="1000"
+                  data-offset="65"
+                >
+                  <li>
+                    <a href="/" data-href="#wrapper">
+                      <div>Home</div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="program">
+                      <div>Wfs program</div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="team">
+                      <div>Team</div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="faq">
+                      <div>FAQ</div>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
             </div>
-            <nav id="primary-menu">
-              <ul class="menu single-page-nav" data-easing="easeInOutExpo" data-speed="1000" data-offset="65">
-                <li>
-                  <a href="/" data-href="#wrapper">
-                    <div>Home</div>
-                  </a>
-                </li>
-                <li>
-                  <a href="program">
-                    <div>Wfs program</div>
-                  </a>
-                </li>
-                <li>
-                  <a href="team">
-                    <div>Team</div>
-                  </a>
-                </li>
-                <li>
-                  <a href="faq">
-                    <div>FAQ</div>
-                  </a>
-                </li>
+          </div>
+        </div>
+      </header>
+      <!-- Header -->
+      <!-- Main Content -->
+      <div id="main-content">
+        <!-- to replace cover photo -->
+        <section
+          id="slider"
+          class="slider-parallax full-screen force-full-screen dark-bg"
+        >
+          <div
+            id="cover-image"
+            class="full-screen force-full-screen dark section-page no-padding no-margin no-border ohidden"
+            style="
+              background-image: url('https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/boss-header.jpg');
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center center;
+              height: 667px;
+            "
+          >
+            <a
+              href="#"
+              data-scrollto="#wfs-section"
+              data-easing="easeInOutExpo"
+              data-speed="1250"
+              data-offset="65"
+              class="one-page-arrow"
+              ><i
+                class="fa fa-angle-double-down fa-2x infinite animated fadeInDown"
+              ></i
+            ></a>
+          </div>
+        </section>
+
+        <!-- WFS Section -->
+        <div id="wfs-section" class="section-page">
+          <div class="row">
+            <div
+              class="section-title-block text-center centered-div"
+              style="max-width: 800px"
+            >
+              <h1 class="title text-uppercase">
+                Wrestling Federation of Singapore
+              </h1>
+            </div>
+            <div class="text-left wow fadeInUpBig">
+              <p>
+                The Wrestling Federation of Singapore (WFS) is a National Sports
+                Association that was established on the 18th of December 2008
+                with Institution of Public Character (IPC) status since the 1st
+                of February 2012.
+              </p>
+
+              <p>
+                WFS is the sole governing body for the sport, responsible for
+                the education and promotion of the sport to schools,
+                corporations and local communities.
+              </p>
+
+              <p>
+                Although being one of the youngest nations in one of the oldest
+                sports in the world, WFS strives to produce homegrown athletes
+                who have and will continue to achieve success at the
+                international stage, contributing towards our Nation’s sporting
+                achievements.
+              </p>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div
+              class="section-title-block text-center centered-div"
+              style="max-width: 800px"
+            >
+              <h3 class="title text-uppercase">Programs that WFS runs</h3>
+            </div>
+            <div class="text-left wow fadeInUpBig">
+              <ul>
+                <li>Beat Our Streets Singapore (Youth-at-risk engagement)</li>
+                <li>Grassroots Wrestling Clubs (People’s Association)</li>
+                <li>Affiliate programs with Commercial MMA Gyms</li>
+                <li>Sports Education Program (SEP)</li>
+                <li>School Interest Groups</li>
+                <li>High Performance National Team</li>
               </ul>
-            </nav>
+            </div>
+          </div>
+        </div>
+        <!-- BOSS Section -->
+        <div id="boss-section" class="section-page">
+          <div class="row">
+            <div
+              class="section-title-block text-center centered-div"
+              style="max-width: 800px"
+            >
+              <h1 class="title text-uppercase">
+                Beat Our Streets Singapore (B.O.S.S)
+              </h1>
+            </div>
+            <div class="text-left wow fadeInUpBig">
+              <p>
+                B.O.S.S is a non-profit programme driven by the Wrestling
+                Federation of Singapore which aims to use the sport of wrestling
+                to inspire our urban children and teenagers and provide them
+                with the academic and athletic support required to reach
+                success.
+              </p>
+
+              <p>
+                Through wrestling, participants learn key values such as
+                resilience, discipline, commitment, leadership and
+                sportsmanship. Wrestling also serves as a metaphor for our young
+                on how they can overcome adversity in challenging situations and
+                how the struggle against seemingly unsurmountable odds in
+                wrestling will give them a chance of success.
+              </p>
+
+              <p>
+                Through the programme, participants are also equipped with
+                life-skills such as financial literacy. B.O.S.S currently runs
+                free wrestling classes for children and teens under the age of
+                18 as well as after school programs at various institutions and
+                hopes to further support them with the help of donors and
+                volunteers.
+              </p>
+            </div>
+            <br />
+            <div class="text-left wow fadeInUpBig">
+              <img
+                src="https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/BOSS.jpg"
+                alt="BTS poster"
+                style="display: block; margin: 0 auto"
+              />
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div
+              class="section-title-block text-center centered-div"
+              style="max-width: 800px"
+            >
+              <h3 class="title text-uppercase">B.O.S.S Programs</h3>
+            </div>
+            <div class="text-left wow fadeInUpBig">
+              <ul>
+                <li>SG wrestling grading system</li>
+                <li>Financial literacy</li>
+                <li>Values-driven education</li>
+                <li>Free classes for children and teens under 18</li>
+              </ul>
+            </div>
+          </div>
+          <br />
+          <div
+            class="section-title-block text-center centered-div"
+            style="max-width: 800px"
+          >
+            <h3 class="title text-uppercase">Past B.O.S.S Events</h3>
+          </div>
+          <div class="text-left wow fadeInUpBig">
+            <div
+              class="portfolio-item-data portfolio-page-expanded theme-bg fade-in clearfix"
+            >
+              <div class="row clearfix">
+                <div class="columns large-6">
+                  <div class="portfolio-expander-media">
+                    <iframe
+                      src="https://www.youtube.com/embed/Yi1ZYYRiGP8"
+                      frameborder="0"
+                      webkitallowfullscreen
+                      mozallowfullscreen
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+                <div class="columns large-6">
+                  <div class="portfolio-expander-section">
+                    <div class="heading-block">
+                      <h3>TOUCH Community Services, Young Arrows</h3>
+                    </div>
+                    <div class="bottom-margin">
+                      <p>
+                        Beneficiary of the first Wrestling Federation of
+                        Singapore's, Beat Our Streets Singapore - Wrestle with a
+                        heart fund raiser event.
+                      </p>
+
+                      <p>
+                        38 wrestlers (kids and adults) participated in the day
+                        long event. The event saw a total of 46 bouts of
+                        wrestling action along with charity sale of snacks and
+                        beverages. All proceeds from event registrations and
+                        sales from snacks and beverages goes to our beneficiary.
+                      </p>
+
+                      <p>
+                        (TOUCH Young Arrows helps children aged six to 12 years
+                        old from low-income and/or single-parent families
+                        through programmes such as free academic coaching in
+                        primary school subjects (English and Mathematics),
+                        values-driven activities and year-round family bonding
+                        events.)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- BTS Section -->
+        <!-- BTS Sponsors Section -->
+        <div id="" class="section-page">
+          <div class="row">
+            <div
+              class="section-title-block text-center centered-div"
+              style="max-width: 800px"
+            >
+              <h3 class="title text-uppercase">Sponsors</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 medium-4 medium-offset-4 columns">
+              <div
+                class="icon-block text-center"
+                data-sr="wait 0.1s, scale up 50%"
+              >
+                <div class="icon-block-icon icon-large">
+                  <a href="https://www.cargill.com/worldwide/singapore"
+                    ><img
+                      src="https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/cargill-logo.jpg"
+                      alt="BTS Sponsors"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- BTS Sponsors Section -->
+        <hr />
+        <!-- BTS Partners Section -->
+        <div id="" class="section-page">
+          <div class="row">
+            <div
+              class="section-title-block text-center centered-div"
+              style="max-width: 800px"
+            >
+              <h3 class="title text-uppercase">Partners</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 medium-4 medium-offset-4 columns">
+              <div
+                class="icon-block text-center"
+                data-sr="wait 0.1s, scale up 50%"
+              >
+                <div class="icon-block-icon icon-large">
+                  <a href="http://www.ja.org.sg/"
+                    ><img
+                      src="https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/ja-logo.jpg"
+                      alt="BTS Partners"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- BTS Partners Section -->
+        <hr />
+        <!-- BTS Supporters Section -->
+        <div id="" class="section-page">
+          <div class="row">
+            <div
+              class="section-title-block text-center centered-div"
+              style="max-width: 800px"
+            >
+              <h3 class="title text-uppercase">Supported by</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 medium-6 large-4 columns">
+              <div
+                class="icon-block text-center"
+                data-sr="wait 0.1s, scale up 50%"
+              >
+                <div class="icon-block-icon icon-large">
+                  <a href="https://www.pc.org.sg/"
+                    ><img
+                      src="https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/pc-logo.jpg"
+                      alt="BTS Supporters"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="small-12 medium-6 large-4 columns">
+              <div
+                class="icon-block text-center"
+                data-sr="wait 0.1s, scale up 50%"
+              >
+                <div class="icon-block-icon icon-large">
+                  <a href="https://unitedworldwrestling.org/"
+                    ><img
+                      src="https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/partners/uww.jpg"
+                      alt="BTS Supporters"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- BTS Supporters Section -->
+        <!-- WFS Section -->
+        <div id="team-section" class="section-page" style="padding: 0">
+          <div class="row">
+            <div
+              class="section-title-block text-center centered-div"
+              style="max-width: 800px"
+            >
+              <h1 class="title text-uppercase">
+                Singapore National Wrestling Team
+              </h1>
+            </div>
+            <div class="text-left wow fadeInUpBig">
+              <p>
+                Our pioneer National Team was established in 2009 and during
+                that year under the tutelage of 2 times Olympic Champion and 6
+                times World Champion, Sergei Beloglazov, achieved our first ever
+                Silver medal in the SEA games.
+              </p>
+
+              <p>
+                Since then, we have achieved medals for our Nation at many
+                regional and international competitions. Our most recent
+                achievement was from Alvina Lim who clinched a Bronze medal at
+                the 2016 Commonwealth Wrestling Championships.
+              </p>
+
+              <p>
+                As part of Team Singapore, we hope to continue to do our small
+                nation proud and achieve higher standards at the international
+                stage.
+              </p>
+            </div>
+          </div>
+          <div class="text-left wow fadeInUpBig">
+            <img
+              src="https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/team.jpg"
+              alt="BTS poster"
+              style="display: block; margin: 0 auto"
+            />
           </div>
         </div>
       </div>
-    </header>
-    <!-- Header -->
-    <!-- Main Content -->
-    <div id="main-content">
-      <!-- to replace cover photo -->
-      <section id="slider" class="slider-parallax full-screen force-full-screen dark-bg">
-        <div id="cover-image"
-          class="full-screen force-full-screen dark section-page no-padding no-margin no-border ohidden"
-          style="background-image: url('https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/boss-header.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center center; height: 667px">
-          <a href="#" data-scrollto="#wfs-section" data-easing="easeInOutExpo" data-speed="1250" data-offset="65"
-            class="one-page-arrow"><i class="fa fa-angle-double-down fa-2x infinite animated fadeInDown"></i></a>
-        </div>
-      </section>
-
-      <!-- WFS Section -->
-      <div id="wfs-section" class="section-page">
+      <!-- Main Content -->
+      <!-- footer -->
+      <footer id="footer" class="dark-bg">
         <div class="row">
-          <div class="section-title-block text-center centered-div" style="max-width: 800px;">
-            <h1 class="title text-uppercase">Wrestling Federation of Singapore</h1>
+          <div class="text-center wow shake">
+            <p>LIKE | LOVE | FOLLOW | CONTRIBUTE</p>
           </div>
-          <div class="text-left wow fadeInUpBig">
-            <p>The Wrestling Federation of Singapore (WFS) is a National Sports Association that was established on the
-              18th of December 2008 with Institution of Public Character (IPC) status since the 1st of February 2012.
+          <div class="text-center wp-icon-animate wp-icon-effect-tfb">
+            <i class="wp-icon wp-icon-small wp-icon-facebook fa fa-facebook"
+              ><a href="https://www.facebook.com/singaporewrestling"></a
+            ></i>
+            <i class="wp-icon wp-icon-small wp-icon-twitter fa fa-twitter"
+              ><a href="https://twitter.com/SGwrestling"></a
+            ></i>
+            <i class="wp-icon wp-icon-small wp-icon-instagram fa fa-instagram"
+              ><a href="https://www.instagram.com/sg_wrestling/"></a
+            ></i>
+            <i class="wp-icon wp-icon-small wp-icon-youtube fa fa-youtube"
+              ><a
+                href="https://www.youtube.com/channel/UCSzfJxwad_dQfO4zIurH8hQ"
+              ></a
+            ></i>
+            <i class="wp-icon wp-icon-small wp-icon-newspaper fa fa-newspaper-o"
+              ><a href="https://medium.com/@sg_wrestling"></a
+            ></i>
+            <i class="wp-icon wp-icon-small wp-icon-heartbeat fa fa-heartbeat"
+              ><a href="https://www.giving.sg/singaporewrestling"></a
+            ></i>
+          </div>
+          <div class="text-center">
+            <p>
+              <a href="/terms">Terms of Use</a> |
+              <a href="/privacy">Privacy Policy</a> | <a href="/faq">FAQ</a>
             </p>
-
-            <p>WFS is the sole governing body for the sport, responsible for the education and promotion of the sport to
-              schools, corporations and local communities.</p>
-
-            <p>Although being one of the youngest nations in one of the oldest sports in the world, WFS strives to
-              produce homegrown athletes who have and will continue to achieve success at the international stage,
-              contributing towards our Nation’s sporting achievements.</p>
+          </div>
+          <div class="legal text-center">
+            <p>
+              <i class="fa fa-copyright"></i> 2019
+              <a href="http://www.singaporewrestling.com/"
+                ><b>Wrestling Federation of Singapore</b></a
+              >. All Rights Reserved.
+            </p>
           </div>
         </div>
-        <br>
-        <div class="row">
-          <div class="section-title-block text-center centered-div" style="max-width: 800px;">
-            <h3 class="title text-uppercase">Programs that WFS runs</h3>
-          </div>
-          <div class="text-left wow fadeInUpBig">
-            <ul>
-              <li>Beat Our Streets Singapore (Youth-at-risk engagement)</li>
-              <li>Grassroots Wrestling Clubs (People’s Association)</li>
-              <li>Affiliate programs with Commercial MMA Gyms</li>
-              <li>Sports Education Program (SEP)</li>
-              <li>School Interest Groups</li>
-              <li>High Performance National Team</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- BOSS Section -->
-      <div id="boss-section" class="section-page">
-        <div class="row">
-          <div class="section-title-block text-center centered-div" style="max-width: 800px;">
-            <h1 class="title text-uppercase">Beat Our Streets Singapore (B.O.S.S)</h1>
-          </div>
-          <div class="text-left wow fadeInUpBig">
-            <p>B.O.S.S is a non-profit programme driven by the Wrestling Federation of Singapore which aims to use the
-              sport of wrestling to inspire our urban children and teenagers and provide them with the academic and
-              athletic support required to reach success.</p>
-
-            <p>Through wrestling, participants learn key values such as resilience, discipline, commitment, leadership
-              and sportsmanship. Wrestling also serves as a metaphor for our young on how they can overcome adversity in
-              challenging situations and how the struggle against seemingly unsurmountable odds in wrestling will give
-              them a chance of success. </p>
-
-            <p>Through the programme, participants are also equipped with life-skills such as financial literacy.
-              B.O.S.S currently runs free wrestling classes for children and teens under the age of 18 as well as after
-              school programs at various institutions and hopes to further support them with the help of donors and
-              volunteers.</p>
-          </div>
-          <br>
-          <div class="text-left wow fadeInUpBig">
-            <img src="https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/BOSS.jpg"
-              alt="BTS poster" style="display: block; margin: 0 auto;">
-          </div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="section-title-block text-center centered-div" style="max-width: 800px;">
-            <h3 class="title text-uppercase">B.O.S.S Programs</h3>
-          </div>
-          <div class="text-left wow fadeInUpBig">
-            <ul>
-              <li>SG wrestling grading system</li>
-              <li>Financial literacy</li>
-              <li>Values-driven education</li>
-              <li>Free classes for children and teens under 18</li>
-            </ul>
-          </div>
-        </div>
-        <br>
-        <div class="section-title-block text-center centered-div" style="max-width: 800px;">
-          <h3 class="title text-uppercase">Past B.O.S.S Events</h3>
-        </div>
-        <div class="text-left wow fadeInUpBig">
-          <div class="portfolio-item-data portfolio-page-expanded theme-bg fade-in clearfix">
-            <div class="row clearfix">
-              <div class="columns large-6">
-                <div class="portfolio-expander-media">
-                  <iframe src="https://www.youtube.com/embed/Yi1ZYYRiGP8" frameborder="0" webkitallowfullscreen
-                    mozallowfullscreen allowfullscreen></iframe>
-                </div>
-              </div>
-              <div class="columns large-6">
-                <div class="portfolio-expander-section">
-                  <div class="heading-block">
-                    <h3>TOUCH Community Services, Young Arrows</h3>
-                  </div>
-                  <div class="bottom-margin">
-                    <p>Beneficiary of the first Wrestling Federation of Singapore's, Beat Our Streets Singapore -
-                      Wrestle with a heart fund raiser event.</p>
-
-                    <p>38 wrestlers (kids and adults) participated in the day long event. The event saw a total of 46
-                      bouts of wrestling action along with charity sale of snacks and beverages. All proceeds from event
-                      registrations and sales from snacks and beverages goes to our beneficiary.</p>
-
-                    <p>(TOUCH Young Arrows helps children aged six to 12 years old from low-income and/or single-parent
-                      families through programmes such as free academic coaching in primary school subjects (English and
-                      Mathematics), values-driven activities and year-round family bonding events.)</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- BTS Section -->
-      <!-- BTS Sponsors Section -->
-      <div id="" class="section-page">
-        <div class="row">
-          <div class="section-title-block text-center centered-div" style="max-width: 800px;">
-            <h3 class="title text-uppercase">Sponsors</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="small-12 medium-4 medium-offset-4 columns">
-            <div class="icon-block text-center" data-sr="wait 0.1s, scale up 50%">
-              <div class="icon-block-icon icon-large">
-                <a href="https://www.cargill.com/worldwide/singapore"><img
-                    src="https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/cargill-logo.jpg"
-                    alt="BTS Sponsors"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- BTS Sponsors Section -->
-      <hr>
-      <!-- BTS Partners Section -->
-      <div id="" class="section-page">
-        <div class="row">
-          <div class="section-title-block text-center centered-div" style="max-width: 800px;">
-            <h3 class="title text-uppercase">Partners</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="small-12 medium-4 medium-offset-4 columns">
-            <div class="icon-block text-center" data-sr="wait 0.1s, scale up 50%">
-              <div class="icon-block-icon icon-large">
-                <a href="http://www.ja.org.sg/"><img
-                    src="https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/ja-logo.jpg"
-                    alt="BTS Partners"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- BTS Partners Section -->
-      <hr>
-      <!-- BTS Supporters Section -->
-      <div id="" class="section-page">
-        <div class="row">
-          <div class="section-title-block text-center centered-div" style="max-width: 800px;">
-            <h3 class="title text-uppercase">Supported by</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="small-12 medium-6 large-4 columns">
-            <div class="icon-block text-center" data-sr="wait 0.1s, scale up 50%">
-              <div class="icon-block-icon icon-large">
-                <a href="https://www.pc.org.sg/"><img
-                    src="https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/pc-logo.jpg"
-                    alt="BTS Supporters"></a>
-              </div>
-            </div>
-          </div>
-          <div class="small-12 medium-6 large-4 columns">
-            <div class="icon-block text-center" data-sr="wait 0.1s, scale up 50%">
-              <div class="icon-block-icon icon-large">
-                <a href="https://unitedworldwrestling.org/"><img
-                    src="https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/partners/uww.jpg"
-                    alt="BTS Supporters"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- BTS Supporters Section -->
-      <!-- WFS Section -->
-      <div id="team-section" class="section-page" style="padding: 0;">
-        <div class="row">
-          <div class="section-title-block text-center centered-div" style="max-width: 800px;">
-            <h1 class="title text-uppercase">Singapore National Wrestling Team</h1>
-          </div>
-          <div class="text-left wow fadeInUpBig">
-            <p>Our pioneer National Team was established in 2009 and during that year under the tutelage of 2 times
-              Olympic Champion and 6 times World Champion, Sergei Beloglazov, achieved our first ever Silver medal in
-              the SEA games.</p>
-
-            <p>Since then, we have achieved medals for our Nation at many regional and international competitions. Our
-              most recent achievement was from Alvina Lim who clinched a Bronze medal at the 2016 Commonwealth Wrestling
-              Championships.</p>
-
-            <p>As part of Team Singapore, we hope to continue to do our small nation proud and achieve higher standards
-              at the international stage.</p>
-          </div>
-        </div>
-        <div class="text-left wow fadeInUpBig">
-          <img src="https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/team.jpg"
-            alt="BTS poster" style="display: block; margin: 0 auto;">
-        </div>
-      </div>
+      </footer>
+      <!-- footer -->
+      <div id="scrollToTop" class="fa fa-chevron-up"></div>
     </div>
-    <!-- Main Content -->
-    <!-- footer -->
-    <footer id="footer" class="dark-bg">
-      <div class="row">
-        <div class="text-center wow shake">
-          <p>LIKE | LOVE | FOLLOW | CONTRIBUTE</p>
-        </div>
-        <div class="text-center wp-icon-animate wp-icon-effect-tfb">
-          <i class='wp-icon wp-icon-small wp-icon-facebook fa fa-facebook'><a
-              href="https://www.facebook.com/singaporewrestling"></a></i>
-          <i class='wp-icon wp-icon-small wp-icon-twitter fa fa-twitter'><a
-              href="https://twitter.com/SGwrestling"></a></i>
-          <i class='wp-icon wp-icon-small wp-icon-instagram fa fa-instagram'><a
-              href="https://www.instagram.com/sg_wrestling/"></a></i>
-          <i class='wp-icon wp-icon-small wp-icon-youtube fa fa-youtube'><a
-              href="https://www.youtube.com/channel/UCSzfJxwad_dQfO4zIurH8hQ"></a></i>
-          <i class='wp-icon wp-icon-small wp-icon-newspaper fa fa-newspaper-o'><a
-              href="http://news.singaporewrestling.com/"></a></i>
-          <i class='wp-icon wp-icon-small wp-icon-heartbeat fa fa-heartbeat'><a
-              href="https://www.giving.sg/singaporewrestling"></a></i>
-        </div>
-        <div class="text-center">
-          <p><a href="/terms">Terms of Use</a> | <a href="/privacy">Privacy Policy</a> | <a href="/faq">FAQ</a></p>
-        </div>
-        <div class="legal text-center">
-          <p><i class="fa fa-copyright"></i> 2019 <a href="http://www.singaporewrestling.com/"><b>Wrestling Federation
-                of Singapore</b></a>.
-            All Rights Reserved.</p>
-        </div>
-      </div>
-    </footer>
-    <!-- footer -->
-    <div id="scrollToTop" class="fa fa-chevron-up"></div>
-  </div>
-  <!-- content -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/what-input.min.js"></script>
-  <script src="js/foundation.min.js"></script>
-  <script src="js/modernizr.min.js"></script>
-  <script src="js/jquery-ui.min.js"></script>
-  <script src="js/jquery.rss.js"></script>
-  <script src="js/moment.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/wow.min.js"></script>
-  <script src="js/scrollReveal.min.js"></script>
-  <script src="js/classie.js"></script>
-  <script src="js/fitvids.js"></script>
-  <script src="js/main.js"></script>
-  <script>
-    jQuery(function ($) {
-      $(window).on("load resize", function () {
-        if ($(window).width() < 600) {
-          $('#cover-image').css('background-image', 'url(https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/boss-header-mobile.jpg)')
-        } else if ($(window).width() > 601 && $(window).width() < 900) {
-          $('#cover-image').css('background-image', 'url(https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/boss-header-mid.jpg)')
-        } else {
-          $('#cover-image').css('background-image', 'url(https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/boss-header.jpg)')
-        }
-      })
-    })
-  </script>
-</body>
-
+    <!-- content -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/modernizr.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.rss.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/scrollReveal.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/fitvids.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      jQuery(function ($) {
+        $(window).on("load resize", function () {
+          if ($(window).width() < 600) {
+            $("#cover-image").css(
+              "background-image",
+              "url(https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/boss-header-mobile.jpg)"
+            );
+          } else if ($(window).width() > 601 && $(window).width() < 900) {
+            $("#cover-image").css(
+              "background-image",
+              "url(https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/boss-header-mid.jpg)"
+            );
+          } else {
+            $("#cover-image").css(
+              "background-image",
+              "url(https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/boss/boss-header.jpg)"
+            );
+          }
+        });
+      });
+    </script>
+  </body>
 </html>
