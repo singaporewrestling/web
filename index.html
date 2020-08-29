@@ -141,11 +141,11 @@
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <!--endbuild-->
     <script>
-      (function(i, s, o, g, r, a, m) {
+      (function (i, s, o, g, r, a, m) {
         i["GoogleAnalyticsObject"] = r;
         (i[r] =
           i[r] ||
-          function() {
+          function () {
             (i[r].q = i[r].q || []).push(arguments);
           }),
           (i[r].l = 1 * new Date());
@@ -256,7 +256,7 @@
         >
           <div class="row text-center">
             <h1 style="">Wrestling Federation of Singapore</h1>
-            <!-- <button style="background: lightgrey; padding: 30px 50px; font-weight: 900; font-size: x-large; margin-top: 40%;"><a href="#">#</a></!--> 
+            <!-- <button style="background: lightgrey; padding: 30px 50px; font-weight: 900; font-size: x-large; margin-top: 40%;"><a href="#">#</a></!-->
           </div>
           <a
             href="#"
@@ -275,21 +275,32 @@
       <!-- Main Content -->
       <div id="main-content">
         <!-- News Section -->
-        <!-- <div id="news-section" class="section-page">
+        <div id="news-section" class="section-page">
           <div class="row">
             <div
               class="section-title-block text-center centered-div"
-              style="max-width: 800px;"
+              style="max-width: 800px"
             >
               <h2 class="title text-uppercase">Recent News</h2>
             </div>
-            <div id="recent-news" class="wow fadeInUp"> -->
+            <div
+              id="recent-news"
+              class="wow fadeInUp"
+              style="
+                padding: 0 15px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+              "
+            >
               <!-- Recent news content -->
-            <!-- </div>
+            </div>
           </div>
           <div
             class="text-center centered-div top-margin"
-            style="max-width: 830px;"
+            style="max-width: 830px"
           >
             <a
               href="#"
@@ -301,13 +312,15 @@
               >Read More <i class="fa fa-angle-down"></i
             ></a>
           </div>
-        </div> -->
+        </div>
         <!-- News Section -->
         <!-- Divider -->
-        <!-- <div
+        <div
           id="more-news"
           class="section-page parallax dark-bg"
-          style="background-image: url('https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/background/parallax-1.jpg');"
+          style="
+            background-image: url('https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/background/parallax-1.jpg');
+          "
           data-stellar-background-ratio="0.3"
         >
           <div class="row text-center">
@@ -315,20 +328,20 @@
               <h2 class="text-uppercase">Read all of our articles</h2>
             </div>
             <a
-              href="http://news.singaporewrestling.com/"
+              href="https://medium.com/@sg_wrestling"
               class="button button-border button-rounded button-light large"
               >Go to the News Section</a
             >
           </div>
           <div class="overlay-bg"></div>
-        </div> -->
+        </div>
         <!-- Divider -->
         <!-- Gallery Section -->
         <div id="gallery-section" class="section-page">
           <div class="row">
             <div
               class="section-title-block text-center centered-div"
-              style="max-width: 800px;"
+              style="max-width: 800px"
             >
               <h2 class="title text-uppercase">Gallery of Past Events</h2>
             </div>
@@ -555,12 +568,12 @@
         <div
           id="events-section"
           class="section-page"
-          style="background-color: #f2f2f2;"
+          style="background-color: #f2f2f2"
         >
           <div class="row">
             <div
               class="section-title-block text-center centered-div"
-              style="max-width: 800px;"
+              style="max-width: 800px"
             >
               <h2 class="title text-uppercase">Calendar of Events</h2>
             </div>
@@ -569,7 +582,7 @@
             <div class="text-center centered-div flex-video">
               <iframe
                 src="https://www.google.com/calendar/embed?title=Singapore%20Wrestling%20Events&amp;showNav=0&amp;height=500&amp;wkst=1&amp;bgcolor=%23f2f2f2&amp;src=singaporewrestling.com_s2jfuhthu3itq3sf4himv4jbos@group.calendar.google.com&amp;color=%232952A3&amp;src=en.singapore%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=Asia%2FSingapore"
-                style=" border-width:0 "
+                style="border-width: 0"
                 width="1280"
                 height="500"
                 frameborder="0"
@@ -584,7 +597,7 @@
           <div class="row">
             <div
               class="section-title-block text-center centered-div"
-              style="max-width: 800px;"
+              style="max-width: 800px"
             >
               <h2 class="title text-uppercase">Training Locations</h2>
             </div>
@@ -867,7 +880,12 @@
                           <dt>Fees:</dt>
                           <dd>*Check gym website for more information</dd>
                           <dt>Coach:</dt>
-                          <dd><a href="https://www.myactivesg.com/Sports/Find-a-Coach/M/Muhammad-Hidayat-Bin-Haron">Hidayat Haron</a></dd>
+                          <dd>
+                            <a
+                              href="https://www.myactivesg.com/Sports/Find-a-Coach/M/Muhammad-Hidayat-Bin-Haron"
+                              >Hidayat Haron</a
+                            >
+                          </dd>
                           <dt>More Information:</dt>
                           <dd>
                             <a
@@ -970,12 +988,18 @@
                           <dt>Class Type:</dt>
                           <dd>Adults class (Beginner - Novice Level)</dd>
                           <dt>Class Sessions:</dt>
-                          <dd>Every Tuesday 7.00PM - 8.30PM and Sunday 11.00AM - 12.30PM (except public holidays)</dd>
+                          <dd>
+                            Every Tuesday 7.00PM - 8.30PM and Sunday 11.00AM -
+                            12.30PM (except public holidays)
+                          </dd>
                           <dt>Fees:</dt>
                           <dd>$90/Month</dd>
                           <dt>Coach:</dt>
                           <dd>
-                            <a href="https://www.myactivesg.com/Sports/Find-a-Coach/A/Asyraf-Bin-Salim">Asyraf Salim</a>
+                            <a
+                              href="https://www.myactivesg.com/Sports/Find-a-Coach/A/Asyraf-Bin-Salim"
+                              >Asyraf Salim</a
+                            >
                             and Kester Leung
                           </dd>
                           <dt>More Information:</dt>
@@ -1091,7 +1115,12 @@
                           <dt>Fees:</dt>
                           <dd>*Check gym website for more information</dd>
                           <dt>Coach:</dt>
-                          <dd><a href="https://www.myactivesg.com/Sports/Find-a-Coach/M/Muhammad-Hidayat-Bin-Haron">Hidayat Haron</a></dd>
+                          <dd>
+                            <a
+                              href="https://www.myactivesg.com/Sports/Find-a-Coach/M/Muhammad-Hidayat-Bin-Haron"
+                              >Hidayat Haron</a
+                            >
+                          </dd>
                           <dt>More Information:</dt>
                           <dd>
                             <a
@@ -1129,14 +1158,27 @@
                           <dd>Wrestling, Pankration and Grappling</dd>
                           <dt>Class Sessions:</dt>
                           <dd>
-                            Adult Wrestling (17 yrs and up): Sunday 2.00PM - 3.30PM
+                            Adult Wrestling (17 yrs and up): Sunday 2.00PM -
+                            3.30PM
                           </dd>
                           <dd>
-                            Adult Intermediate Level Wrestling: Monday 8.15PM - 9.45PM
+                            Adult Intermediate Level Wrestling: Monday 8.15PM -
+                            9.45PM
                           </dd>
-                          <dd>Adult Gi-grappling/BJJ: Tuesday 3.30PM - 5.00PM / 5.15PM - 6.45PM, Wednesday 3.30PM - 5.00PM /8.15PM - 9.45PM, Friday 3.30PM - 5.00PM, Saturday 12.30PM - 2.00PM, Sunday (Beginner) 9.30AM - 11.00AM</dd>
-                          <dd>Adult No-Gi Grappling: Saturday 9.30AM - 11.00AM, Sunday 12.30PM - 2.00PM</dd>
-                          <dd>Adult MMA: Monday 3.30PM - 5.00PM, Thursday 3.30PM - 5.00PM, Saturday Intermediate Level 2.30PM - 4.00PM</dd>
+                          <dd>
+                            Adult Gi-grappling/BJJ: Tuesday 3.30PM - 5.00PM /
+                            5.15PM - 6.45PM, Wednesday 3.30PM - 5.00PM /8.15PM -
+                            9.45PM, Friday 3.30PM - 5.00PM, Saturday 12.30PM -
+                            2.00PM, Sunday (Beginner) 9.30AM - 11.00AM
+                          </dd>
+                          <dd>
+                            Adult No-Gi Grappling: Saturday 9.30AM - 11.00AM,
+                            Sunday 12.30PM - 2.00PM
+                          </dd>
+                          <dd>
+                            Adult MMA: Monday 3.30PM - 5.00PM, Thursday 3.30PM -
+                            5.00PM, Saturday Intermediate Level 2.30PM - 4.00PM
+                          </dd>
                           <dt>Fees:</dt>
                           <dd>*Check gym website for more information</dd>
                           <dt>More Information:</dt>
@@ -1178,8 +1220,7 @@
                           <dd>*Check gym website for more information</dd>
                           <dt>More Information:</dt>
                           <dd>
-                            <a
-                              href="https://www.facebook.com/synergymmasp/"
+                            <a href="https://www.facebook.com/synergymmasp/"
                               >Synergy</a
                             >
                           </dd>
@@ -1251,7 +1292,10 @@
                           <dd>*Check gym website for more information</dd>
                           <dt>Coach:</dt>
                           <dd>
-                            <a href="https://www.myactivesg.com/Sports/Find-a-Coach/H/Huang-Junen-Gabriel">Gabriel Huang</a>
+                            <a
+                              href="https://www.myactivesg.com/Sports/Find-a-Coach/H/Huang-Junen-Gabriel"
+                              >Gabriel Huang</a
+                            >
                           </dd>
                           <dt>More Information:</dt>
                           <dd>
@@ -1288,7 +1332,9 @@
         <div
           id="partners-section"
           class="section-page parallax dark-bg"
-          style="background-image: url('https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/background/parallax-2.jpg');"
+          style="
+            background-image: url('https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/background/parallax-2.jpg');
+          "
           data-stellar-background-ratio="0.1"
         >
           <div class="row text-center">
@@ -1307,7 +1353,7 @@
           <div class="row">
             <div
               class="section-title-block text-center centered-div"
-              style="max-width: 800px;"
+              style="max-width: 800px"
             >
               <h2 class="title text-uppercase">Associate members</h2>
             </div>
@@ -1389,7 +1435,7 @@
           <div class="row">
             <div
               class="section-title-block text-center centered-div"
-              style="max-width: 800px;"
+              style="max-width: 800px"
             >
               <h2 class="title text-uppercase">Corporate partners</h2>
             </div>
@@ -1435,7 +1481,7 @@
           <div class="row">
             <div
               class="section-title-block text-center centered-div"
-              style="max-width: 800px;"
+              style="max-width: 800px"
             >
               <h2 class="title text-uppercase">Media partners</h2>
             </div>
@@ -1464,7 +1510,7 @@
           <div class="row">
             <div
               class="section-title-block text-center centered-div"
-              style="max-width: 800px;"
+              style="max-width: 800px"
             >
               <h2 class="title text-uppercase">Supported by</h2>
             </div>
@@ -1589,12 +1635,12 @@
         <div
           id="about-section"
           class="section-page"
-          style="background-color: #f2f2f2; padding-bottom: 0px;"
+          style="background-color: #f2f2f2; padding-bottom: 0px"
         >
           <div class="row">
             <div
               class="section-title-block text-center centered-div"
-              style="max-width: 800px;"
+              style="max-width: 800px"
             >
               <h2 class="title text-uppercase">About Us</h2>
             </div>
@@ -1602,13 +1648,17 @@
           <div class="row expanded common-height">
             <div
               class="medium-6 columns column-padding wow fadeInLeft"
-              style="background: url('https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/side/1.jpg') center center no-repeat; background-size: cover;"
+              style="
+                background: url('https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/side/1.jpg')
+                  center center no-repeat;
+                background-size: cover;
+              "
             >
               <div>&nbsp;</div>
             </div>
             <div
               class="medium-6 columns column-padding"
-              style="background-color: #F8F8F8;"
+              style="background-color: #f8f8f8"
             >
               <div class="wow fadeInRight">
                 <p class="lead nobottommargin">
@@ -1647,7 +1697,7 @@
           <div class="row expanded common-height">
             <div
               class="medium-6 columns column-padding"
-              style="background-color: #f2f2f2;"
+              style="background-color: #f2f2f2"
             >
               <div class="wow fadeInLeft">
                 <h3 class="title text-uppercase text-center">
@@ -1660,7 +1710,11 @@
                 </p>
                 <ol
                   type="i"
-                  style="font-size: 125%; margin-bottom: 1rem; text-rendering: optimizeLegibility;"
+                  style="
+                    font-size: 125%;
+                    margin-bottom: 1rem;
+                    text-rendering: optimizeLegibility;
+                  "
                 >
                   <li>Commercially viable</li>
                   <li>A regional center of excellence in coaching</li>
@@ -1670,7 +1724,11 @@
             </div>
             <div
               class="medium-6 columns column-padding wow fadeInRight"
-              style="background: url('https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/side/2.jpg') center center no-repeat; background-size: cover;"
+              style="
+                background: url('https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/side/2.jpg')
+                  center center no-repeat;
+                background-size: cover;
+              "
             >
               <div>&nbsp;</div>
             </div>
@@ -1678,13 +1736,17 @@
           <div class="row expanded common-height">
             <div
               class="medium-6 columns column-padding wow fadeInLeft"
-              style="background: url('https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/side/3.jpg') center center no-repeat; background-size: cover;"
+              style="
+                background: url('https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/side/3.jpg')
+                  center center no-repeat;
+                background-size: cover;
+              "
             >
               <div>&nbsp;</div>
             </div>
             <div
               class="medium-6 columns column-padding"
-              style="background-color: #F8F8F8;"
+              style="background-color: #f8f8f8"
             >
               <div class="wow fadeInRight">
                 <h3 class="title text-uppercase text-center">Values</h3>
@@ -1700,7 +1762,7 @@
           <div class="row expanded common-height">
             <div
               class="medium-6 columns column-padding"
-              style="background-color: #f2f2f2;"
+              style="background-color: #f2f2f2"
             >
               <div class="wow fadeInLeft">
                 <h3 class="title text-uppercase text-center">
@@ -1718,7 +1780,11 @@
             </div>
             <div
               class="medium-6 columns column-padding wow fadeInRight"
-              style="background: url('https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/side/4.jpg') center center no-repeat; background-size: cover;"
+              style="
+                background: url('https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/side/4.jpg')
+                  center center no-repeat;
+                background-size: cover;
+              "
             >
               <div>&nbsp;</div>
             </div>
@@ -1729,7 +1795,9 @@
         <div
           id="more-news"
           class="section-page parallax dark-bg"
-          style="background-image: url('https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/background/parallax-3.jpg');"
+          style="
+            background-image: url('https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/background/parallax-3.jpg');
+          "
           data-stellar-background-ratio="0.3"
         >
           <div class="row text-center">
@@ -1759,7 +1827,9 @@
         <div
           id="contact-section"
           class="section-page overlay dark-bg"
-          style="background-image: url('https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/contact/main.jpg');"
+          style="
+            background-image: url('https://s3-ap-southeast-1.amazonaws.com/singaporewrestling.com/assets/contact/main.jpg');
+          "
         >
           <div id="contact-content">
             <div class="section-title-block text-center">
@@ -1770,7 +1840,7 @@
                 <header>
                   <h4>Find Us</h4>
                 </header>
-                <div class="content" style="border: none !important;">
+                <div class="content" style="border: none !important">
                   <p>
                     We are located at the (old) Bedok Sports Hall (beside bedok
                     stadium). Ample parking space available.
@@ -1785,7 +1855,7 @@
               </div>
               <div
                 class="medium-6 columns contact-section"
-                style="border-left: 1px solid #8a9094 !important;"
+                style="border-left: 1px solid #8a9094 !important"
               >
                 <div class="contact-info">
                   <div class="method">
@@ -1866,7 +1936,7 @@
               ></a
             ></i>
             <i class="wp-icon wp-icon-small wp-icon-newspaper fa fa-newspaper-o"
-              ><a href="http://news.singaporewrestling.com/"></a
+              ><a href="https://medium.com/@sg_wrestling"></a
             ></i>
             <i class="wp-icon wp-icon-small wp-icon-heartbeat fa fa-heartbeat"
               ><a href="https://www.giving.sg/singaporewrestling"></a
@@ -1906,26 +1976,26 @@
     <script src="js/fitvids.js"></script>
     <script type="text/javascript">
       // Gallery
-      jQuery(window).load(function() {
+      jQuery(window).load(function () {
         var jQuerycontainer = jQuery("#portfolio");
         jQuerycontainer.isotope({
           transitionDuration: "0.65s",
           masonry: {
-            columnWidth: jQuerycontainer.find(".portfolio-item:not(.wide)")[0]
-          }
+            columnWidth: jQuerycontainer.find(".portfolio-item:not(.wide)")[0],
+          },
         });
-        jQuery(window).resize(function() {
+        jQuery(window).resize(function () {
           jQuerycontainer.isotope("layout");
           FTEMP.portfolio.portfolioDescMargin();
         });
-        var t = setTimeout(function() {
+        var t = setTimeout(function () {
           FTEMP.portfolio.portfolioDescMargin();
         }, 200);
       });
     </script>
     <script type="text/javascript">
       // Partner Carousel
-      jQuery(document).ready(function($) {
+      jQuery(document).ready(function ($) {
         var ocClients = $("#oc-clients");
         ocClients.owlCarousel({
           margin: 60,
@@ -1940,8 +2010,8 @@
             480: { items: 1 },
             768: { items: 2 },
             992: { items: 3 },
-            1200: { items: 3 }
-          }
+            1200: { items: 3 },
+          },
         });
         var ocClients2 = $("#oc-clients-2");
         ocClients2.owlCarousel({
@@ -1957,8 +2027,8 @@
             480: { items: 1 },
             768: { items: 2 },
             992: { items: 3 },
-            1200: { items: 3 }
-          }
+            1200: { items: 3 },
+          },
         });
         var ocClients3 = $("#oc-clients-3");
         ocClients3.owlCarousel({
@@ -1974,7 +2044,35 @@
             480: { items: 1 },
             768: { items: 2 },
             992: { items: 3 },
-            1200: { items: 3 }
+            1200: { items: 3 },
+          },
+        });
+
+        $.getJSON(
+          "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@sg_wrestling"
+        ).done(function (data) {
+          if (Array.isArray(data.items)) {
+            var items = data.items
+              .map(function (item) {
+                return {
+                  title: item.title,
+                  link: item.link,
+                  date: new Date(item.pubDate).toDateString(),
+                };
+              })
+              .slice(0, 4);
+
+            items.forEach(function (element) {
+              $("#recent-news").append(
+                "<div style='width: 200px;padding: 5px;border: 2px solid #f21e0e;text-align: center; margin:10px;'><h6>" +
+                  element.title +
+                  "</h6><p style='margin: 0;'><a href=" +
+                  element.link +
+                  ">Read</a></p><small>Published: " +
+                  element.date +
+                  "</small></div>"
+              );
+            });
           }
         });
       });
@@ -1983,7 +2081,7 @@
     <script type="text/javascript" src="js/jquery.gmap.js"></script>
     <script type="text/javascript">
       // Footer Map
-      jQuery(window).load(function() {
+      jQuery(window).load(function () {
         jQuery("#map").gMap({
           address: "3 Bedok North Street 2, Singapore 469643, Singapore",
           maptype: "ROADMAP",
@@ -1996,9 +2094,9 @@
               icon: {
                 image: "images/map-icon.png",
                 iconsize: [64, 64],
-                iconanchor: [14, 44]
-              }
-            }
+                iconanchor: [14, 44],
+              },
+            },
           ],
           doubleclickzoom: false,
           controls: {
@@ -2007,7 +2105,7 @@
             mapTypeControl: false,
             scaleControl: false,
             streetViewControl: false,
-            overviewMapControl: false
+            overviewMapControl: false,
           },
           styles: [
             {
@@ -2016,8 +2114,8 @@
               stylers: [
                 { saturation: 36 },
                 { color: "#333333" },
-                { lightness: 40 }
-              ]
+                { lightness: 40 },
+              ],
             },
             {
               featureType: "all",
@@ -2025,18 +2123,18 @@
               stylers: [
                 { visibility: "on" },
                 { color: "#ffffff" },
-                { lightness: 16 }
-              ]
+                { lightness: 16 },
+              ],
             },
             {
               featureType: "all",
               elementType: "labels.icon",
-              stylers: [{ visibility: "off" }]
+              stylers: [{ visibility: "off" }],
             },
             {
               featureType: "administrative",
               elementType: "geometry.fill",
-              stylers: [{ color: "#fefefe" }, { lightness: 20 }]
+              stylers: [{ color: "#fefefe" }, { lightness: 20 }],
             },
             {
               featureType: "administrative",
@@ -2044,28 +2142,28 @@
               stylers: [
                 { color: "#fefefe" },
                 { lightness: 17 },
-                { weight: 1.2 }
-              ]
+                { weight: 1.2 },
+              ],
             },
             {
               featureType: "landscape",
               elementType: "geometry",
-              stylers: [{ color: "#f5f5f5" }, { lightness: 20 }]
+              stylers: [{ color: "#f5f5f5" }, { lightness: 20 }],
             },
             {
               featureType: "poi",
               elementType: "geometry",
-              stylers: [{ color: "#f5f5f5" }, { lightness: 21 }]
+              stylers: [{ color: "#f5f5f5" }, { lightness: 21 }],
             },
             {
               featureType: "poi.park",
               elementType: "geometry",
-              stylers: [{ color: "#dedede" }, { lightness: 21 }]
+              stylers: [{ color: "#dedede" }, { lightness: 21 }],
             },
             {
               featureType: "road.highway",
               elementType: "geometry.fill",
-              stylers: [{ color: "#ffffff" }, { lightness: 17 }]
+              stylers: [{ color: "#ffffff" }, { lightness: 17 }],
             },
             {
               featureType: "road.highway",
@@ -2073,60 +2171,38 @@
               stylers: [
                 { color: "#ffffff" },
                 { lightness: 29 },
-                { weight: 0.2 }
-              ]
+                { weight: 0.2 },
+              ],
             },
             {
               featureType: "road.arterial",
               elementType: "geometry",
-              stylers: [{ color: "#ffffff" }, { lightness: 18 }]
+              stylers: [{ color: "#ffffff" }, { lightness: 18 }],
             },
             {
               featureType: "road.local",
               elementType: "geometry",
-              stylers: [{ color: "#ffffff" }, { lightness: 16 }]
+              stylers: [{ color: "#ffffff" }, { lightness: 16 }],
             },
             {
               featureType: "transit",
               elementType: "geometry",
-              stylers: [{ color: "#f2f2f2" }, { lightness: 19 }]
+              stylers: [{ color: "#f2f2f2" }, { lightness: 19 }],
             },
             {
               featureType: "water",
               elementType: "geometry",
-              stylers: [{ color: "#e9e9e9" }, { lightness: 17 }]
-            }
-          ]
+              stylers: [{ color: "#e9e9e9" }, { lightness: 17 }],
+            },
+          ],
         });
       });
     </script>
     <script src="js/main.js"></script>
+    <script></script>
     <script>
-      jQuery(function($) {
-        $("#recent-news").rss(
-          "http://news.singaporewrestling.com/rss/",
-          {
-            limit: 4,
-            entryTemplate:
-              "<div class='medium-6 large-3 columns'><article class='article-card'><a href='{url}'>{teaserImage}</a><div class='card-content'><h5><a href='{url}'>{title}</a></h5><p>{shortBodyPlain}...</p><p><a href='{url}' class='button button-news'>Read Post</a></p></div></article></div>"
-          },
-          function callback() {
-            var elementHeights = $(".article-card")
-              .map(function() {
-                return $(this).height();
-              })
-              .get();
-            var maxHeight = Math.max.apply(null, elementHeights);
-            var buttonHeight = $(".button-news").height();
-            var totalHeight = maxHeight + buttonHeight;
-            $(".article-card").height(totalHeight);
-          }
-        );
-      });
-    </script>
-    <script>
-      jQuery(function($) {
-        $(window).on("load resize", function() {
+      jQuery(function ($) {
+        $(window).on("load resize", function () {
           if ($(window).width() < 450) {
             $("#cover-image").css(
               "background-image",
