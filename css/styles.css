@@ -3087,3 +3087,7 @@ ul .menu .single-page-nav li a:hover {
 .owl-carousel .owl-item .oc-item .partner-logo {
   height: 300px;
 }
+
+.column, .columns.header-padding {
+  padding: 0 10px !important;
+}
